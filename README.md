@@ -72,7 +72,7 @@ It's highly recommended to use a virtual environment for your projects, there ar
 
 ### Create the new evironment - you only need to do this once
 
-# 2401PTDS_Regression_Project_FM2
+###### 2401PTDS_Regression_Project_FM2
 
 Assuming Anaconda is installed on local device, skip step 1.
 
