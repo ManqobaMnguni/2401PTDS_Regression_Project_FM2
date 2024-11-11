@@ -72,21 +72,39 @@ It's highly recommended to use a virtual environment for your projects, there ar
 
 ### Create the new evironment - you only need to do this once
 
-```bash
-# create the conda environment
-conda create --name <env>
-```
+# 2401PTDS_Regression_Project_FM2
 
-### This is how you activate the virtual environment in a terminal and install the project dependencies
+Assuming Anaconda is installed on local device, skip step 1.
 
-```bash
-# activate the virtual environment
-conda activate <env>
-# install the pip package
+Step 1: Downloading and installing Anaconda
+
+Use the link below to download Anaconda. 
+https://www.anaconda.com/download
+
+Step 2: Creating an environment
+
+Once Anaconda is installed, open Anaconda Prompt from the local machine and run the followng codes to create a virtual environment called 'regression_fm2' with packaged listed out in the code below.
+
+conda create -n regression_fm2 Pandas=2.2.2 Numpy=1.26 matplotlib=3.8.4
+
+conda activate regression_fm2
+
 conda install pip
-# install the requirements for this project
+
 pip install -r requirements.txt
-```
+
+Step 3: Downloading the dataset
+
+Download the two files from the git-hub space: Avacado.csv and 2401PTDS_Regression_Project_FM2_Final_Report.ipynb and ensure you save these in the same folder.
+
+Step 4: Opening the project file
+
+Open Jupyter Notebook (regression_fm2) from your local machine. Once open, on the browser tab, navigate to the folder with the documents downloaded above and open 2401PTDS_Regression_Project_FM2_Final_Report.ipynb
+
+conda install pip
+
+pip install -r requirements.txt
+
 
 ## 5. Team Members<a class="anchor" id="team-members"></a>
 
