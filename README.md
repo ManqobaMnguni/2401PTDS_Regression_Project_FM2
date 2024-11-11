@@ -101,9 +101,6 @@ Step 4: Opening the project file
 
 Open Jupyter Notebook (regression_fm2) from your local machine. Once open, on the browser tab, navigate to the folder with the documents downloaded above and open 2401PTDS_Regression_Project_FM2_Final_Report.ipynb
 
-conda install pip
-
-pip install -r requirements.txt
 
 
 ## 5. Team Members<a class="anchor" id="team-members"></a>
